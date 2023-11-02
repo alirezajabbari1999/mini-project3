@@ -1,0 +1,8 @@
+.header-container{
+  height: 100vh;
+  background-image: url(../Images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(.5);
+}
