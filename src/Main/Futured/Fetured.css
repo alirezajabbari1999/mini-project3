@@ -1,0 +1,17 @@
+.feture-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feture-container .image-box img{
+ width: 100%;
+}
+
+.feture-container .text-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

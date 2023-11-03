@@ -1,0 +1,24 @@
+.fetured-item-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.fetured-item-container .icon-box i{
+  font-size: 38px;
+  color: #ffc451;
+}
+
+.fetured-item-container .icon-box {
+  padding: 30px 0;
+}
+
+.fetured-item-container .text-box h3{
+  color: #444;
+}
+
+.fetured-item-container .text-box p{
+  color: #888;
+  font-size: 14px;
+}

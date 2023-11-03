@@ -1,7 +1,8 @@
 .nav-background{
   position: fixed;
   width: 100%;
-  background-color: #00000070;
+  background-color: #000000d3;
+  z-index: 2;
 }
 
 .nav-background .nav-container{
