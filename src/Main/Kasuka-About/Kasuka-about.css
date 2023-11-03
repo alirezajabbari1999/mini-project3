@@ -1,0 +1,46 @@
+.kasuka-about-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 120px;
+  gap: 30px;
+}
+
+.kasuka-about-container .text-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.kasuka-about-container .text-box h1{
+  color: #444;
+}
+
+.kasuka-about-container .text-box p{
+  text-align: justify;
+}
+
+.kasuka-about-container .text-box .desc1{
+  margin-bottom: 20px;
+}
+
+.kasuka-about-container .text-box span{
+  padding: 5px 0;
+}
+
+.kasuka-about-container .text-box span i{
+  color: gold;
+  padding-left: 5px;
+}
+
+.kasuka-about-container .text-box .desc2{
+  margin-top: 20px;
+}
+
+.kasuka-about-container .image-box{
+
+}
+
+.kasuka-about-container .image-box img{
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #ffffff51;
+  padding: 25px 55px;
+  transition: all .5s;
+}
+
+.box-container:hover {
+  border-color: #ffbb38;
+}
+
+.box-container i {
+  color: #ffbb38;
+  font-size: 30px;
+}
+
+.box-container span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
