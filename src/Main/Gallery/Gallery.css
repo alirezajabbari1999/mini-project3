@@ -1,0 +1,127 @@
+.gallery-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.gallery-container h3 {
+  color: #99999985;
+  position: relative;
+}
+
+.gallery-container h3::before {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: gold;
+  position: absolute;
+  top: 10px;
+  right: 85px;
+}
+
+.gallery-container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.gallery-container ul li {
+  border-radius: 3px;
+  padding: 3px 5px;
+  transition: all 0.3s;
+}
+
+.gallery-container ul li.li-active {
+  background-color: #ffbb38 ;
+}
+
+.gallery-container ul li:hover {
+  background-color: #ffbb38;
+}
+
+.gallery-container ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 600;
+}
+
+.gallery-container .gallery-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.gallery-container .gallery-images .column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gallery-container .gallery-images .column .item {
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-container .gallery-images .column .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s;
+}
+
+.gallery-container .gallery-images .column .item:hover img {
+  transform: scale(1.2);
+}
+
+.gallery-container .gallery-images .column .item .content {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.gallery-container .gallery-images .column .item .content:hover {
+  opacity: 1;
+}
+
+.gallery-container .gallery-images .column .item .content .spans {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-container .gallery-images .column .item .content .span1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.gallery-container .gallery-images .column .item .content .span2 {
+  color: #999;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.gallery-container .gallery-images .column .item .content .span3 {
+  font-size: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.gallery-container .gallery-images .column .item .content .span3:hover {
+  color: #ffbb38;
+}
+
+.gallery-container .gallery-images .column .item img:hover .content {
+  opacity: 1;
+}

@@ -4,6 +4,7 @@ import Icons from "./Icons-line/Icons";
 import Fetured from "./Futured/Fetured";
 import Services from "./Services/Services";
 import Cta from "./Cta/Cta";
+import Gallery from "./Gallery/Gallery";
 
 export default function Main() {
   return (
@@ -13,6 +14,7 @@ export default function Main() {
       <Fetured />
       <Services />
       <Cta />
+      <Gallery />
     </div>
   );
 }
