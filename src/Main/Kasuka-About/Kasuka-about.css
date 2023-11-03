@@ -1,8 +1,10 @@
 .kasuka-about-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 80px 120px;
+  padding: 80px 0;
   gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .kasuka-about-container .text-box{

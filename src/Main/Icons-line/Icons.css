@@ -1,0 +1,18 @@
+.icons-container {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.icons-container img {
+  width: 120px;
+  filter: grayscale(10) opacity(0.5);
+  transition: all 0.5s;
+}
+
+.icons-container img:hover {
+  width: 120px;
+  filter: grayscale(0) opacity(1);
+}
