@@ -1,0 +1,41 @@
+.cta-background {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../Images/cta-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cta-background .cta-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-background .cta-container h2 {
+  margin-bottom: 10px;
+}
+
+.cta-background .cta-container p {
+  text-align: right;
+}
+
+.cta-background .cta-container a {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 5px 20px;
+  margin-top: 25px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+.cta-background .cta-container a:hover {
+  background-color: #ffc451;
+  border-color: #ffc451;
+  color: black;
+}

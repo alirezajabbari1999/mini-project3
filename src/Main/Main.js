@@ -3,6 +3,7 @@ import KasukaAbout from "./Kasuka-About/Kasuka-about";
 import Icons from "./Icons-line/Icons";
 import Fetured from "./Futured/Fetured";
 import Services from "./Services/Services";
+import Cta from "./Cta/Cta";
 
 export default function Main() {
   return (
@@ -11,6 +12,7 @@ export default function Main() {
       <Icons />
       <Fetured />
       <Services />
+      <Cta />
     </div>
   );
 }
