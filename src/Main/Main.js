@@ -5,6 +5,7 @@ import Fetured from "./Futured/Fetured";
 import Services from "./Services/Services";
 import Cta from "./Cta/Cta";
 import Gallery from "./Gallery/Gallery";
+import Count from "./Count/Count";
 
 export default function Main() {
   return (
@@ -15,6 +16,7 @@ export default function Main() {
       <Services />
       <Cta />
       <Gallery />
+      <Count />
     </div>
   );
 }
