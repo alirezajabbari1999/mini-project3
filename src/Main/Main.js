@@ -6,6 +6,7 @@ import Services from "./Services/Services";
 import Cta from "./Cta/Cta";
 import Gallery from "./Gallery/Gallery";
 import Count from "./Count/Count";
+import Testimonials from "./Testimonials/Testimonials";
 
 export default function Main() {
   return (
@@ -17,6 +18,7 @@ export default function Main() {
       <Cta />
       <Gallery />
       <Count />
+      <Testimonials />
     </div>
   );
 }
