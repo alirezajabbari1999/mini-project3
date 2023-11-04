@@ -1,0 +1,143 @@
+/* .team-container h3{
+  color: #99999985;
+  position: relative;
+}
+
+.team-container h3::before{
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: gold;
+  position: absolute;
+  top: 10px;
+  right: 35px;
+} */
+
+.contact-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-container h3{
+  color: #99999985;
+  position: relative;
+}
+
+.contact-container h3::before{
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: gold;
+  position: absolute;
+  top: 10px;
+  right: 85px;
+}
+
+.contact-container .contact-box{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-top: 30px;
+}
+
+.contact-container .contact-box .info{
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+}
+
+.contact-container .contact-box .info .info-item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-container .contact-box .info .info-item .icon{
+  
+}
+
+.contact-container .contact-box .info .info-item .icon i{
+  background-color: #ffbb38;
+  padding: 12px 14px;
+  border-radius: 5px;
+
+}
+
+.contact-container .contact-box .info .info-item .text{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container .contact-box .info .info-item .text{
+
+}
+
+.contact-container .contact-box .info .info-item .text .title{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-container .contact-box .info .info-item .text .address{
+  color: #444;
+  font-size: 13px;
+}
+
+.contact-container .contact-box .form-box{
+  
+}
+
+.contact-container .contact-box .form-box form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-container .contact-box .form-box form input{
+  padding: 10px 10px;
+  font-family: inherit;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #9999997e;
+  width: 100%;
+}
+
+.contact-container .contact-box .form-box form .name-input-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.contact-container .contact-box .form-box form .name-input-container input{
+  width: 100%;
+}
+
+.contact-container .contact-box .form-box form .title{
+
+}
+
+.contact-container .contact-box .form-box form textarea{
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #9999997e;
+  padding: 10px 10px;
+  font-family: inherit;
+  width: 100%;
+}
+
+.contact-container .contact-box .form-box form .submit-btn{
+  background-color: #ffbb38;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: inherit;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.contact-container .contact-box .form-box form .submit-btn:hover{
+  background-color: #ffb938c7;
+}

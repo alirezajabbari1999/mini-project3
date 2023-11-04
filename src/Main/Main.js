@@ -8,6 +8,7 @@ import Gallery from "./Gallery/Gallery";
 import Count from "./Count/Count";
 import Testimonials from "./Testimonials/Testimonials";
 import Team from "./Team/Team";
+import Contact from "./Contact/Contact";
 
 export default function Main() {
   return (
@@ -21,6 +22,7 @@ export default function Main() {
       <Count />
       <Testimonials />
       <Team />
+      <Contact />
     </div>
   );
 }
