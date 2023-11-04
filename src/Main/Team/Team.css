@@ -1,0 +1,35 @@
+/* .gallery-container h3 {
+
+}
+
+.gallery-container h3::before {
+
+} */
+
+.team-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.team-container h3{
+  color: #99999985;
+  position: relative;
+}
+
+.team-container h3::before{
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: gold;
+  position: absolute;
+  top: 10px;
+  right: 35px;
+}
+
+.team-container .team-members{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}

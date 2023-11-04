@@ -7,6 +7,7 @@ import Cta from "./Cta/Cta";
 import Gallery from "./Gallery/Gallery";
 import Count from "./Count/Count";
 import Testimonials from "./Testimonials/Testimonials";
+import Team from "./Team/Team";
 
 export default function Main() {
   return (
@@ -19,6 +20,7 @@ export default function Main() {
       <Gallery />
       <Count />
       <Testimonials />
+      <Team />
     </div>
   );
 }
