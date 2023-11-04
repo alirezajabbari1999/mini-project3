@@ -1,21 +1,7 @@
-/* .team-container h3{
-  color: #99999985;
-  position: relative;
-}
-
-.team-container h3::before{
-  content: "";
-  width: 120px;
-  height: 2px;
-  background-color: gold;
-  position: absolute;
-  top: 10px;
-  right: 35px;
-} */
-
 .contact-container{
   max-width: 1200px;
   margin: 0 auto;
+  padding: 50px 0;
 }
 
 .contact-container h3{
@@ -51,10 +37,6 @@
   gap: 10px;
 }
 
-.contact-container .contact-box .info .info-item .icon{
-  
-}
-
 .contact-container .contact-box .info .info-item .icon i{
   background-color: #ffbb38;
   padding: 12px 14px;
@@ -67,10 +49,6 @@
   flex-direction: column;
 }
 
-.contact-container .contact-box .info .info-item .text{
-
-}
-
 .contact-container .contact-box .info .info-item .text .title{
   font-weight: 700;
   font-size: 20px;
@@ -79,10 +57,6 @@
 .contact-container .contact-box .info .info-item .text .address{
   color: #444;
   font-size: 13px;
-}
-
-.contact-container .contact-box .form-box{
-  
 }
 
 .contact-container .contact-box .form-box form{
@@ -112,10 +86,6 @@
 
 .contact-container .contact-box .form-box form .name-input-container input{
   width: 100%;
-}
-
-.contact-container .contact-box .form-box form .title{
-
 }
 
 .contact-container .contact-box .form-box form textarea{
